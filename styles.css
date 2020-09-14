@@ -1,0 +1,120 @@
+/* display navbar inline*/
+header{
+    background-color: beige; 
+    }
+li
+{
+    border: 30px;
+font-weight: bold;
+color: aliceblue;
+display: inline;
+padding: 30px;
+margin: 30px;
+}
+/*video au centre*/
+.video{
+    padding: 20px;
+    text-align: center;
+}
+/* background */
+main{
+ 
+ background-repeat:repeat;
+ background-image: url("https://csshint.com/wp-content/uploads/2020/01/CSS-Animated-Backgrounds-2.gif");
+ height: calc(100vh - 36 px) ;
+ 
+}
+
+/*dt tag*/
+dl{
+    color: darkorange;
+    text-align: left;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    color: darkorange;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+/*page1 home*/
+.page1{
+  color:antiquewhite;
+  margin-left: 200px;
+}
+img{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    
+}
+.page1 ,.image{
+  
+    margin-right: 350px;
+    display: inline-block;
+}
+/*page2 work*/
+.page2, .img1, .img2{
+    
+    border: hidden;
+    color:antiquewhite;
+    margin-left: 20px;  
+  }
+
+  .img1, .img2{
+      margin-right: 120px;
+      display: inline-block;
+  }
+  /* page3 */
+  .Education, .experiences{
+      color: antiquewhite; 
+  }
+  p{
+    font-weight: normal;
+    margin-left: 60px;
+  }
+/* page4*/
+.page4{
+    color: antiquewhite;
+}
+/*page contact*/
+.contact{
+    color: aliceblue;
+}
+.getintouch{
+    color: aliceblue
+}
+.contact,.getintouch{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-left: 25px;
+    margin-right: 150px;
+    display: inline-block;
+}
+
+.name, .Email, .Number, .Message{
+    
+    padding: 10px;
+    display: solid;
+    margin-right: 300px;
+    border: hidden;
+    
+}
+/*active button*/
+#button{
+    padding: 20px 30px;
+    border-radius: 50px;
+    font-size: 25px;
+    border: hidden;
+}
+#button:hover{
+    transform: translateY(-1px);
+}
+
+#button:active{
+
+    box-shadow: yellow;
+
+}
